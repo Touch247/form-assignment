@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+</head>
+
+
+<body class="container">
+    <form>
+        <h3>Edit intro</h3>
+        <div class="row">
+            <div class="col">
+                
+                <label for="FirstName">First Name <label style="color: blue;">*</label></label>
+                <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+            </div>
+
+            <div class="col">
+                <label for="LastName">Last Name <label style="color: blue;">*</label></label>
+                <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+            </div>
+        </div>
+<br>
+        <div class="form-group">
+            <label for="headlineText">Headline <label style="color: blue;">*</label></label>
+            <textarea class="form-control" id="headlineText" rows="2"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="currentPositionText">Current Position <label style="color: blue;">*</label></label>
+            <input type="text" class="form-control" id="currentPositionText">
+        </div>
+
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="showEducationcheck">
+            <label class="form-check-label" for="showEducationcheck">Show education in my intro</label>
+        </div>
+
+        <div class="form-group">
+            <label for="educationText">Education</label>
+            <input class="form-control" id="educationText">
+        </div>
+
+        <div class="form-group">
+            <label for="country-Region-Text">Country/Region <label style="color: blue;">*</label></label>
+            <input class="form-control" id="country-Region-Text">
+        </div>
+
+        <div class="form-group">
+            <label for="locationText">Locations in this Country/Region</label>
+            <input class="form-control" id="locationText">
+        </div>
+
+        <div class="form-group">
+            <label for="selectIndustry">Industry <label style="color: blue;">*</label></label>
+            <select class="form-control" id="selectIndustry">
+                <option>Accounting</option>
+                <option>Airlines/Aviation</option>
+                <option>Banking</option>
+                <option>Biotechnology</option>
+                <option>Chemicals</option>
+            </select>
+        </div>
+
+        <h3>Edit contact info</h3><hr>
+        <div>
+            <div class="row">
+                <div class="col">
+                    <label for="websiteURL">Website URL</label>
+                    <input type="text" class="form-control" id="websiteURL">
+                </div>
+
+
+                <div class="col form-group">
+                    <label for="selectWebsiteType">&ensp;</label>
+                    <select class="form-control" id="selectWebsiteType">
+                        <option>Personal</option>
+                        <option>Company</option>
+                        <option>Blog</option>
+                        <option>RSS Feed</option>
+                        <option>Other</option>
+                    </select>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="phoneNumber">Phone</label>
+                <input type="text" class="form-control" id="phoneNumber" maxlength="25">
+            </div>
+
+            <div class="col form-group">
+                <label for="selectContactType">&ensp;</label>
+                <select class="form-control" id="selectContactType">
+                    <option>Home</option>
+                    <option>Work</option>
+                    <option>Mobile</option>
+                </select>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="addressText">Address</label>
+            <textarea class="form-control" id="addressText" rows="2"></textarea>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="selectbirthmonth">Birthday</label>
+                <select class="form-control" id="selectbirthmonth">
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+            </div>
+
+            <div class="col form-group">
+                <label for="selectbirthday">&ensp;</label>
+                <select class="form-control" id="selectbirthday">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                </select>
+
+            </div>
+        </div>
+
+
+
+
+<h3>Edit about</h3><hr>
+<div class="form-group">
+<label for="summaryText">Summary</label>
+<textarea class="form-control" id="summaryText" rows="2"></textarea>
+</div>
+
+<h3>Add experience</h3><hr>
+<div class="form-group">
+<label for="titleText">Title <label style="color: blue;">*</label></label>
+<input class="form-control" id="titleText">
+</div>
+
+<div class="form-group">
+<label for="selectEmploymentType">Employment type</label>
+<select class="form-control" id="selectEmploymentType">
+    <option>-</option>
+    <option>Full-time</option>
+    <option>Part-time</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="companyText">Company <label style="color: blue;">*</label></label>
+<input class="form-control" id="companyText">
+</div>
+
+<div class="form-group">
+<label for="locationText">Location</label>
+<input class="form-control" id="locationText" placeholder="Ex: London, United Kingdom">
+</div>
+
+<div class="form-group form-check">
+<input type="checkbox" class="form-check-input" id="currentrolecheck">
+<label class="form-check-label" for="currentrolecheck">I am currently working in this role</label>
+</div>
+
+<div class="row">
+<div class="col">
+    <label for="startmonth">Start Date <label style="color: blue;">*</label></label>
+    <select class="form-control" id="startmonth">
+        <option>Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+</div>
+
+<div class="col form-group">
+    <label for="startmonth"><label style="color: blue;"> <br> </label></label>
+    <select class="form-control" id="startyear">
+        <option>Year</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+    </select>
+
+</div>
+
+<div class="col">
+    <label for="endmonth">End Date <label style="color: blue;">*</label></label>
+    <select class="form-control" id="endmonth">
+        <option>Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+</div>
+
+<div class="col form-group">
+    <label for="endyear"><label style="color: blue;"> <br> </label></label>
+    <select class="form-control" id="endyear">
+        <option>Year</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+    </select>
+</div>
+</div>
+</form>
+<h3>
+Edit education
+</h3><hr>
+<div class="form-group">
+<label for="titleText">School <label style="color: blue;">*</label></label>
+<input class="form-control" id="titleText">
+</div>
+<div class="form-group">
+<label for="titleText">Degree</label>
+<input class="form-control" id="titleText">
+</div>
+<div class="form-group">
+<label for="titleText">Field of study</label>
+<input class="form-control" id="titleText">
+</div>
+<div class="row">
+<div class="col form-group">
+    <label for="startyear">Start Year</label>
+    <select class="form-control" id="startyear">
+        <option>Year</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+    </select>
+
+
+</div>
+
+<div class="col form-group">
+    <label for="endyear">End Year (or expected)</label>
+    <select class="form-control" id="endyear">
+        <option>Year</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+    </select>
+</div>
+</div>
+<div class="form-group">
+<label for="titleText">Grade</label>
+<input class="form-control" id="titleText">
+</div>
+<h3>
+    Reorder Skills & Endorsements (12)
+    </h3><hr>
+    Reorder your skills within a category or choose up to 3 skills to feature in your top skills.
+    <br>
+    <br>
+    <p>Top Skills</p>
+    <hr>
+
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+            <path d="M16 9.26V4h2V2H6v2h2v5.26A7 7 0 005 15h6v5l1 2 1-2v-5h6a7 7 0 00-3-5.74z"></path>
+            
+          </svg>&emsp;&emsp;Team Management
+          <div class="low">
+            <button class="pv-skill-category-skill-entity__delete-button btn-primary" type="button">
+                <li-icon type="trash-icon" role="img" aria-label="Team Management"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+            <path d="M19.26 2.9A28 28 0 0015 2.13V1.5a.5.5 0 00-.5-.5h-5a.5.5 0 00-.5.5v.63a28 28 0 00-4.26.78 1 1 0 00-.74 1V9h1v12a1 1 0 001 1h12a1 1 0 001-1V9h1V3.88a1 1 0 00-.74-.98zM17 20H7V9h10v11zm1-13H6V4.59a26.35 26.35 0 016-.71 26.35 26.35 0 016 .71V7zm-7 11h-1v-7h1v7zm3 0h-1v-7h1v7z"></path>
+          </svg></li-icon>
+              </button>
+              
+              &emsp;&emsp;
+              <button class="btn-primary" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+              <path d="M22 5v2H2V5h20zM2 11h20V9H2v2zm0 4h20v-2H2v2zm0 4h20v-2H2v2z" style="isolation:isolate"></path>
+            </svg>
+              </button>
+          </div>
+
+          <div>
+              <br><hr>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                <path d="M16 9.26V4h2V2H6v2h2v5.26A7 7 0 005 15h6v5l1 2 1-2v-5h6a7 7 0 00-3-5.74z"></path>
+                
+              </svg>&emsp;&emsp;Analysis&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br>
+              <span class="low">
+                <button class="pv-skill-category-skill-entity__delete-button btn-primary" type="button">
+                    <li-icon type="trash-icon" role="img" aria-label="Delete Analysis"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                <path d="M19.26 2.9A28 28 0 0015 2.13V1.5a.5.5 0 00-.5-.5h-5a.5.5 0 00-.5.5v.63a28 28 0 00-4.26.78 1 1 0 00-.74 1V9h1v12a1 1 0 001 1h12a1 1 0 001-1V9h1V3.88a1 1 0 00-.74-.98zM17 20H7V9h10v11zm1-13H6V4.59a26.35 26.35 0 016-.71 26.35 26.35 0 016 .71V7zm-7 11h-1v-7h1v7zm3 0h-1v-7h1v7z"></path>
+              </svg></li-icon>
+                  </button>
+                  
+                  &emsp;&emsp;
+                  <button class="btn-primary" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                  <path d="M22 5v2H2V5h20zM2 11h20V9H2v2zm0 4h20v-2H2v2zm0 4h20v-2H2v2z" style="isolation:isolate"></path>
+                </svg>
+                  </button><hr>
+              </span>
+    
+              
+        </div>
+    </div>
+      
+    <br>
+    <button type="submit" class="btn btn-primary">Save</button>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+</body>
+
+
+</html>
